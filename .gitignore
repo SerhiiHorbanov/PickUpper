@@ -6,7 +6,6 @@
 *.lo
 *.o
 *.obj
-
 # Precompiled Headers
 *.gch
 *.pch
@@ -73,3 +72,8 @@ Plugins/**/Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
+
+### Unignores
+
+# .obj is used for cpp compilation AND as a model format
+!Content/**/*.obj
